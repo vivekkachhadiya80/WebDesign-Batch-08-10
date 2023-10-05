@@ -1,0 +1,96 @@
+/* Media Queries */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (max-width: 1400px) {
+  
+}
+
+ /* Large devices (laptops/desktops, 992px and up) */
+
+@media(max-width: 992px) {
+  .icons{
+    display: none;
+  }
+}
+
+ /* Medium devices (landscape tablets, 768px and up) */
+
+@media (max-width: 768px) {
+  nav ul{
+    display: none;
+  }
+  nav:hover ul{
+    display: block;
+    position: absolute;
+    top:0;
+    background-color: black;
+    height: 100vh;
+    left: 0;
+  }
+  .mobile-menu{
+    display: block;
+  }
+} 
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (max-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 320px and down) */
+
+
+@media (max-width: 320px) {
+
+}
+
+
+ 
+@media (width <= 300px) {
+  @media (max-width: 768px) {
+    
+  } 
+}
+
+
+
+  
+
+@media (300px <= width <= 500px) {
+  
+} 
+
+  
+@media (orientation: landscape) {
+  @media (max-width: 768px) {
+    
+  } 
+} 
+
+@media (orientation: portrait) {
+  @media (max-width: 768px) {
+    
+} 
+}
+  
+@media (width > 500px){
+
+}
+@media (width < 500px){
+
+}
+
+  
+/*
+
+    320px — 480px: Mobile devices.
+    481px — 768px: iPads, Tablets.
+    769px — 1024px: Small screens, laptops.
+    1025px — 1200px: Desktops, large screens.
+    1201px and more — Extra large screens, TV.
+
+*/

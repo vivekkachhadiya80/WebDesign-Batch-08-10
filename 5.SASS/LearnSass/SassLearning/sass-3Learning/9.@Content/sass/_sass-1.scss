@@ -1,0 +1,21 @@
+@use 'varibles' as *;
+
+
+@mixin box($value){
+     border-radius: $value;
+     @content;
+}
+
+.box-1{
+     @include box(10px){
+          background-color: red;
+     }
+}
+
+.box-2{
+     @include box(2px){
+          .box-3{
+               height: 100px;
+          }
+     }
+}

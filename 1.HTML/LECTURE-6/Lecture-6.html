@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        area{
+            background-color: RED;
+        }
+    </style>
+</head>
+<body>
+    <!--map tag-->
+    <map name=""></map>
+    <!--area tag / html 4 -->
+    <area shape="rect" coords="240,115,15,500" href="" alt="">
+    <!--canvas tag-->
+    <canvas>
+        An alternative text describing what your canvas displays.
+    </canvas>
+    <!--output tag-->
+
+    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <inpu0t type="range" id="b" name="b" value="5" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+    </form>
+
+
+    <code>: For marking up generic pieces of computer code.
+    <var>: For specifically marking up variable names.
+    <kbd>: For marking up keyboard (and other types of) input entered into the computer.
+    <samp>: For marking up the output of a computer program.
+
+    <!-- global attributes-->
+
+
+    <!-- attributes-->
+
+    <!--
+        accept
+        autocomplete
+        capture
+        crossorigin
+        disabled
+        elementtiming
+        for
+        max
+        maxlength
+        min
+        minlength
+        multiple
+        pattern
+        readonly
+        rel
+        required
+        size
+        step
+    -->
+      
+
+    <!-- blocklevel element
+
+        <address>
+        Contact information.
+
+        <article>
+        Article content.
+
+        <aside>
+        Aside content.
+
+        <blockquote>
+        Long ("block") quotation.
+
+        <details>
+        Disclosure widget.
+
+        <dialog>
+        Dialog box.
+
+        <dd>
+        Describes a term in a description list.
+
+        <div>
+        Document division.
+
+        <dl>
+        Description list.
+
+        <dt>
+        Description list term.
+
+        <fieldset>
+        Field set label.
+
+        <figcaption>
+        Figure caption.
+
+        <figure>
+        Groups media content with a caption (see <figcaption>).
+
+        <footer>
+        Section or page footer.
+
+        <form>
+        Input form.
+
+        h1, h2, h3, h4, h5, h6
+        Heading levels 1-6.
+
+        <header>
+        Section or page header.
+
+        <hgroup>
+        Groups header information.
+
+        <hr>
+        Horizontal rule (dividing line).
+
+        <li>
+        List item.
+
+        <main>
+        Contains the central content unique to this document.
+
+        <nav>
+        Contains navigation links.
+
+        <ol>
+        Ordered list.
+
+        <p>
+        Paragraph.
+
+        <pre>
+        Preformatted text.
+
+        <section>
+        Section of a web page.
+
+        <table>
+        Table.
+
+        <ul>
+        Unordered list.
+    -->
+
+    <!--inline elements
+
+        <a>
+        <abbr>
+        <audio> (if it has visible controls)
+        <b>
+        <bdi>
+        <bdo>
+        <big>
+        <br>
+        <button>
+        <canvas>
+        <cite>
+        <data>
+        <del>
+        <em>
+        <embed>
+        <i>
+        <iframe>
+        <img>
+        <input>
+        <ins>
+        <label>
+        <map>
+        <mark>
+        <output>
+        <picture>
+        <progress>
+        <q>
+        <s>
+        <script>
+        <select>
+        <small>
+        <span>
+        <strong>
+        <sub>
+        <sup>
+        <textarea>
+        <u>
+        <tt>
+        <video>
+    -->
+
+    <!-- New Semantic Tags Added by HTML5
+
+        In this brief tutorial we’ll touch on all of the new tags added as part of HTML5 to define the structure and content of a web page. The elements we’re going to cover in this guide include:
+
+        header
+        main
+        nav
+        acrtile
+        section
+        aside
+        address
+        footer
+
+        Using these elements isn’t as complicated as it might appear at first glance, and most are fairly self-explanatory. We’ll make a quick pass over each new element, and then draw up an HTML template you can use these new tags to add rich semantic meaning to your markup.
+
+        <header>
+
+        The header element is used to contain the content that appears at the top of every page of your website: the logo, tagline, search prompt, and possibly a navigational menu. In most cases, the header element is best positioned as a direct descendant of the body element, but it’s also ok to place it inside the main element if you prefer.
+
+        <main>
+
+        Use the main element between header and footer elements to contain the primary content of your web page. The main element cannot be a descendant of an article, aside, header, footer, or nav element. Instead, it should be a direct descendant of the body element. Think of it as the direct replacement for the div id="main" you’ve used in the past to wrap up your entire page contents.
+
+        It’s also ok to use more than one main element on a webpage. For example, if your blog homepage includes your five most recent posts, it would be appropriate to wrap each post in it’s own main element – or you could wrap each in article tags.
+
+        <nav>
+
+        Navigational menus are commonly placed at the top of a web page, in a sidebar, or in the page footer. Wherever you happen to place a navigational menu, wrap it in nav tags. Note that you don’t need to use nav tags for every link, just for blocks of links that provide either sitewide navigation or navigation for a specific part of a website.
+
+        <article>
+
+        If your website includes blog posts, articles, or any other content that could just as well appear on another website as syndicated content, wrap that content in an article post. You can use an article element just about anywhere other than nested within an address element, but in most cases an article element will be a direct descendant of a main element or of a section element that is a direct descendant of a main element.
+
+        <section>
+
+        The section element is used to identify content that is a major sub-section of a larger whole. For example, if you’ve posted a long-form ebook in HTML format, it would be reasonable to wrap each chapter in a section element. Likewise, if you have a sidebar (semantically wrapped in aside tags) that contains four sections – ads, a search prompt, related posts, and a newsletter signup form – it would be ok to wrap each of these four sections in section tags since a written outline of the sidebar contents would include a line item for each of the four sections.
+
+        There is some confusion about when to use a section and when to use a div. Here’s a good rule of thumb to help you know when to use each:
+
+        Use a div if you’re wrapping up some content purely to make it easier to style the content or to make it easier for some JavaScript to get ahold of it.
+        Use a section if you would list the content as an item when writing out an outline of the document.
+
+        <aside>
+
+        If your website contains information that isn’t directly related to the main content of the page, it would be appropriate to wrap that information in aside tags. For example, if you write a post that includes some technical terms, and you add definitions for those terms in a sidebar, it would make sense to wrap those definitions in aside tags. It is also common for the entire sidebar of a blog-type website to be wrapped in aside tags to make it clear that the sidebar is not part of the primary content of the page.
+
+        <address>
+
+        The address element provides contact information for the nearest parent article or body element that contains it. Use the address element inside an article to provide contact information for the article’s author. Use it outside of an article in the main or footer elements, or as a direct descendant of the body element, to provide contact information for the website’s owner.
+
+        <footer>
+
+        The footer appears at the bottom of a section of a document. Typically, the footer is a direct descendant of the body element, but it can also be used within a main element, a section, or an article. The most common use of the footer element is to place it at the bottom of an HTML document to contain things like a copyright notice, links to related content, address information about the owner of the website, and links to administrative things like privacy policies and website’s terms of service.
+
+        You may also use the footer element within an article to provide metadata about that particular article. For example, if article tags have been used to wrap a forum post, it would be appropriate to wrap copyright information and the date and time the post was made in a footer element and place it at the bottom of the article. -->
+
+
+    <script>
+        const canvas = document.querySelector('canvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'green';
+        ctx.fillRect(200, 20, 300, 300);
+    </script>
+
+      
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*  
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+.font-family{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Word spacing
+8.Text-direction
+9.Text-shadow
+*/
+
+
+/* css verticle alignment */
+
+
+
+/* css white space */
+
+
+
+
+
+/* css visibility */
+
+p{
+    visibility: collapse;
+}

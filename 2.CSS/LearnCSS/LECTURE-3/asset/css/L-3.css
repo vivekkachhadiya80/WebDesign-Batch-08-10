@@ -1,0 +1,84 @@
+/* css width / height */
+
+
+
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+
+
+/* unorder list */
+
+
+/* css box-shadow */
+
+
+
+/* css box-shadow */
+
+/* accent-color*/
+
+
+/* 
+     disabled
+     enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+/* input:invalid{
+    border:3px solid red;
+}
+input:valid{
+    border:3px solid green;
+}
+
+ol li::marker{
+    color:red;
+}
+ul li::marker{
+    color:red;
+}
+
+:read-write{
+    color:blue;
+}
+
+.box:lang(EN){
+    color:purple
+} */
+
+/*
+    :read-only
+    :read-write
+    :root
+    :lang()
+
+*/
+/* :root{
+    --color:red;
+    --color:green;
+}
+
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: var(--color);
+} */

@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+}
+
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+    CSS ANIMATIONS
+*/
+
+/* Css 2D Transform - Examples */
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 200px;
+    font-size: 20px;
+    color:white;
+}
+
+.translate:hover{
+    /* transform: translateY(100px); */
+    /* transform: scale(2); */
+    /* transform: rotate(180deg); */
+    /* transform: skew(45deg , 180deg); */
+    /* transition: 2s; */
+}
+
+
+
+/* Css 3D Transform - Examples */
+
+/* .cover{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+.cover:hover .content{
+    transform: perspective(600px) rotate3d(240 , 240 , 240 , 241deg);
+    transition: 8s;
+}
+.content{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+} */
+
+
+/* Css Transition - Examples */
+
+.main-box{
+    padding:10px 0px;
+    border:1px solid black;
+    margin: 20px;
+    width: 1000px;
+}
+
+.transition{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: red;
+}
+.transition:hover{
+    transform: translate(900px);
+    /* transition-duration:10s;
+    transition-timing-function:linear; */
+    /* transition: 10s 2s linear; */
+}
+
+
+/*******************************************************/
+
+
+/* Css Filter */
+
+    /* filter:blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter:saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+
+
+/* Css Filter - Exampels */
+
+.filter img{
+    filter: drop-shadow(15px 15px 10px blue);
+}
+
+
+
+
+/******** Css Animation - Examples **********/
+/*
+
+animation-name: none{
+
+    If no animation name is specified, no animation is played.
+}
+
+animation-name: fadeIn{
+
+    If a name is specified, the keyframes matching that name will be used.
+    For example, the fadeIn animation looks like this:
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+}
+
+animation-name: moveRight{
+
+    Another example: the moveRight animation:
+    @keyframes moveRight {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(100px);
+      }
+    }
+}
+
+*/
+
+  
+  
+  
+  
+  
+  
+  /*
+  
+  animation-duration: 0s;{
+
+      The default value is zero seconds: the animation will simply not  play.
+  }
+  
+  animation-duration: 1.2s;{
+
+      You can use decimal values in seconds with the keyword s.
+  }
+  
+  animation-duration: 2400ms;{
+
+      You can use milliseconds instead of seconds, with the keyword ms.
+  }
+  
+  */
+  
+  
+  
+  
+  
+  
+  
+  
+/* 
+  
+  animation-delay: 0s;{
+
+      The animation will wait zero seconds, and thus start right away.
+  }
+  
+  animation-delay: 1.2s;{
+
+      You can use decimal values in seconds with the keyword s.
+  }
+  
+  animation-delay: 2400ms;{
+
+      You can use milliseconds instead of seconds, with the keyword ms.
+  }
+  
+  animation-delay: -500ms;{
+
+      You can use negative values: the animation will start as if it had already been playing for 500ms.
+  }
+  
+*/
+  
+  
+  /*
+  
+  animation-direction: normal{
+
+      The animation is played forwards. When it reaches the end, it starts over at the first keyframe.
+  }
+
+  animation-direction: reverse{
+
+      The animation is played backwards: begins at the last keyframe, finishes at the first keyframe.
+  }
+
+  animation-direction: alternate{
+
+      The animation is played forwards first, then backwards:
+      starts at the first keyframe
+      stops at the last keyframe
+      starts again, but at the last keyframe
+      stops at the first keyframe
+  }
+
+  animation-direction: alternate-reverse{
+
+      The animation is played backwards first, then forwards:
+      starts at the last keyframe
+      stops at the first keyframe
+      starts again, but at the first keyframe
+      stops at the last keyframe
+}
+  
+*/
+  
+/*
+  
+  animation-fill-mode: none;{
+
+      The animation styles do not affect the default style: the element is set to its default state before the animation starts, and returns to that default state after the animation ends.
+  }
+  
+  animation-fill-mode: forwards;{
+
+      The last styles applied at the end of the animation are retained afterwards.
+  }
+  
+  animation-fill-mode: backwards;{
+
+      The animation's styles will already be applied before the animation actually starts.
+  }
+  
+  animation-fill-mode: both;{
+
+      The styles are applied before and after the animation plays.
+  }
+  
+*/
+
+  
+  
+  
+  
+  
+/*
+  
+  animation-iteration-count: 1;{
+
+      The animation will only play once.
+  }
+  
+  animation-iteration-count: 2;{
+
+      You can use integer values to define a specific amount of times the animation will play.
+  }
+  
+  animation-iteration-count: infinite;{
+
+      By using the keyword infinite, the animation will play indefinitely.
+  }
+  
+*/
+  
+  
+  
+  
+  
+  
+/*
+  
+  animation-play-state: running;{
+
+      If the animation-duration and animation-name are defined, the animation will start playing automatically.
+  }
+  
+  animation-play-state: paused;{
+      
+      The animation is set paused at the first keyframe.
+      This is different than having either no animation-duration or animation-name at all. If the animation is paused, the style applied is that of the first keyframe, and not the default style.
+      In this example, the square is visible by default, but the on the first keyframe of fadeAndMove, the opacity is set to 0. When paused, the animation will be "stuck" on this first keyframe, and will thus be invisible.
+      @keyframes fadeAndMove {
+        from {
+          opacity: 0;
+          transform: translateX(0);
+        }
+        to {
+          opacity: 0;
+          transform: translateX(100px);
+        }
+      }
+  }
+  
+  
+  
+  
+  */
+  
+  
+  /* .animate{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name:run;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-play-state:paused;
+  }
+  
+  @keyframes run{
+    from{
+      transform: translate(0px);
+    }
+    to{
+      transform: translate(900px);
+    }
+  } */
+  
+  
+  
+  
+  
+  
+  /*
+  
+  animation-timing-function: ease;{
+
+      The animation starts slowly, accelerates in the middle, and slows down at the end.
+  }
+  
+  animation-timing-function: ease-in;{
+
+      The animation starts slowly, and accelerates gradually until the end.
+  }
+  
+  animation-timing-function: ease-out;{
+
+      The animation starts quickly, and decelerates gradually until the end.
+  }
+  
+  animation-timing-function: ease-in-out;{
+
+      Like ease, but more pronounced.
+      The animation starts quickly, and decelerates gradually until the end.
+  }
+  
+  animation-timing-function: linear;{
+
+      The animation has a *constant speed.
+  }
+  
+  animation-timing-function: step-start;{
+
+      The animation jumps instantly to the final state.
+  }
+  
+  animation-timing-function: step-end;{
+
+      The animation stays at the initial state until the end, when it instantly jumps to the final state.
+  }
+  
+  
+  animation-timing-function: steps(4, end);{
+
+      By using steps() with an integer, you can define a specific number of steps before reaching the end. The state of the element will not vary gradually, but rather jump from state to state in separate instants.
+  }
+  
+  */
+  
+  
+  /* .animate{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name:run;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-timing-function: steps(10);
+  }
+  
+  @keyframes run{
+    from{
+      transform: translate(0px);
+    }
+    to{
+      transform: translate(900px);
+    }
+  } */
+  
+  
+  
+  /*
+  
+  Shorthand property for animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction animation-fill-mode and animation-play-state.
+  
+  Only animation-duration and animation-name are required.
+  
+  */
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+

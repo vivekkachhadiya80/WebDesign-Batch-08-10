@@ -1,0 +1,22 @@
+@use 'index' as *;
+
+@mixin font-size($size){
+  font-size: $size;
+  height: $size;
+  width: $size;
+  background-color: $bg-color1;
+  @content;
+}
+
+
+.box-1{
+  @include font-size(200px){
+    border:10px solid $bg-color2;
+  }
+}
+
+.box-2{
+  @include font-size(200px);
+}
+
+

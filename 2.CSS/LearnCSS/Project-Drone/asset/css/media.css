@@ -1,0 +1,15 @@
+@media (max-width:992px){
+    .nav-item{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+
+}
+
+@media (min-width:992px){
+    .mobile-menu{
+        display: none;
+    }
+}

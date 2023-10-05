@@ -1,0 +1,22 @@
+@use 'index' as *;
+
+// sass @for method
+
+@for $i from 1 through 100{
+  .list-#{$i}{
+    border:none;
+  }
+}
+
+@for $i from 1 through 3{
+  .list-#{$i}{
+    border:10px*$i;
+  }
+}
+
+@for $i from 1 through 3{
+  .list-#{$i}{
+    border:10px*$i;
+    height: 100px*$i;
+  }
+}

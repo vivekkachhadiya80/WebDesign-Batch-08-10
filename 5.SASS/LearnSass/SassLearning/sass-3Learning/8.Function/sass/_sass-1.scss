@@ -1,0 +1,30 @@
+@use 'index' as *;
+
+$container-width:$w-100;
+
+.box-1{
+  display: $d-flex;
+  width:$container-width;
+  height: $h-100;
+  border:2px solid black;
+}
+
+@function myFunction($container-width){
+  @return $container-width/2+px;
+}
+@function myFunction1($container-width){
+  @return $container-width/3+px;
+}
+
+.box-2{
+  width:myFunction($container-width);
+  height: $h-100;
+  border:2px solid black;
+}
+
+.box-3{
+  width:myFunction1($container-width);
+  height: $h-100;
+  border:2px solid black;
+
+}

@@ -1,0 +1,30 @@
+@use 'index' as *;
+
+/* @each and in method */
+
+// @each $a in main  , box-3 , box-1  , box-2{
+//   .#{$a}{
+//     border:1px solid rgb(251, 96, 96);
+//   }
+// }
+
+// @each with simple list
+
+// $list:(main  , box-3 , box-1  , box-2  , box-3);
+// @each $a in $list{
+//   .#{$a}{
+//     border:1px solid rgb(251, 96, 96);
+//   }
+// }
+
+//Multiple assignement
+
+// $list : ((main , red , 100px , 10px) , (para , purple , 200px , 20px) , (box , red , 100px  , 10px));
+
+// @each $name , $color , $size , $position in $list{
+//   .#{$name}{
+//     border:$color;
+//     height: $size;
+//     left:$position;
+//   }
+// }

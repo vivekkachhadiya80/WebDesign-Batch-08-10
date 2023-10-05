@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Agdasima';
+    src: url('Agdasima-Regular.eot');
+    src: url('Agdasima-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Agdasima-Regular.woff2') format('woff2'),
+        url('Agdasima-Regular.woff') format('woff'),
+        url('Agdasima-Regular.ttf') format('truetype'),
+        url('Agdasima-Regular.svg#Agdasima-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agdasima';
+    src: url('Agdasima-Bold.eot');
+    src: url('Agdasima-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Agdasima-Bold.woff2') format('woff2'),
+        url('Agdasima-Bold.woff') format('woff'),
+        url('Agdasima-Bold.ttf') format('truetype'),
+        url('Agdasima-Bold.svg#Agdasima-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

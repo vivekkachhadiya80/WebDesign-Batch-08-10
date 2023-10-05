@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+
+/* css color */
+
+
+
+
+/* css background properties */
+
+/* .background{
+    background-image: url('../image/smiley-businesswoman.avif') ,url('../image/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: multiply;
+} */
+
+/* 
+.linear-gradient-1{
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to right, red, blue , yellow);
+}  */
+
+/* .diagonal-linear-gradient {
+    height: 500px;
+    width:100%;
+    background: linear-gradient(to bottom left, red 50% , yellow 50%);
+} */
+
+/* .linear-gradient-rainbow {
+    height: 500px;
+    width:500px;
+    border-radius: 100%;
+    background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet)
+} */
+
+/* .radial-gradient-simple {
+    height: 800px;
+    width:100%;
+    background: radial-gradient( red, orange, yellow, green, blue, indigo, violet);
+} */
+
+/* .radial-gradient {
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(circle farthest-corner at right, red, blue);
+} */
+
+/* .bullseye {
+    height: 100vh;
+    width:100%;
+    background: repeating-radial-gradient(red, red 5%, white , white 20%);
+} */
+
+/* .warning {
+    height: 100vh;
+    width:100%;
+    background: repeating-linear-gradient(-30deg, yellow, yellow 10%, black 10%, black 20% );
+} */
+
+/* .conic{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
+}  */
+
+
+/* css border properties */
+
+/* css border types
+    solid
+    dotted
+    dashed
+    double
+    hidden
+    none
+    ridge
+    inset
+    outset
+    groove
+*/
+
+
+
+
+
+/* border radius */
+
+
+
+
+/* css outline properties */
+
+/*
+outline:none;
+outline:width style color;
+*/
+
+
+
+
+
+
+/* css opacity */
+
+
+
+
+/* css button */
+
+/* button tag */
+
+div{
+    padding: 100px;
+}
+
+
+button , input , a{
+    background-color: gray;
+    text-decoration: none;
+    border:0;
+    padding: 10px 40px;
+    color:blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border:1px solid blueviolet;
+}
+
+button:hover , input:hover{
+    background-color: blueviolet;
+    color:white;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+span:hover a{
+    background-color: blueviolet;
+    color:white;
+}
+span a{
+    display: inline-block;
+    transition: 1s;
+}
+a:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+

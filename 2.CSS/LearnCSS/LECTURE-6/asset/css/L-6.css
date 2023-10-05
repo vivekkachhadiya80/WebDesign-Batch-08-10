@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+/* css Position */
+
+/* header{
+    height: 200px;
+    background-color: green;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    top:0;
+    margin: auto;
+}
+nav{
+    height: 100%;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    align-items: center;
+}
+ul li a{
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+} */
+
+/* .maindiv{
+    position: relative;
+    width: 1700px;
+    border:2px solid rebeccapurple;
+    height: 900px;
+}
+.maindiv .box-1{
+    height: 150px;
+    width: 150px;
+}
+
+.maindiv div:nth-child(1){
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+}
+.maindiv div:nth-child(2){
+    background-color: green;
+    position: absolute;
+    right: 0;
+}
+.maindiv div:nth-child(3){
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.maindiv div:nth-child(4){
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.maindiv div:nth-child(5){
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.maindiv div:nth-child(6){
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.maindiv div:nth-child(7){
+    background-color: yellow;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    margin: auto;
+}
+.maindiv div:nth-child(8){
+    background-color: brown;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+}
+.maindiv div:nth-child(9){
+    background-color: black;
+    position: absolute;
+} */
+
+/* Z-index Propeties */
+
+
+/* .box-3{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: absolute;
+    z-index: -2;
+} */
+
+ /* float properties */
+
+
+
+
+
+
+
+/* css clear properties */
+
+
+
+
+/* overflow properties */
+
+/* 
+textarea{
+    resize: vertical;
+} */
+
+
+/* css cursor properties */
+
+/* .alias {cursor: alias;}
+.all-scroll {cursor: all-scroll;}
+.auto {cursor: auto;}
+.cell {cursor: cell;}
+.context-menu {cursor: context-menu;}
+.col-resize {cursor: col-resize;}
+.copy {cursor: copy;}
+.crosshair {cursor: crosshair;}
+.default {cursor: default;}
+.e-resize {cursor: e-resize;}
+.ew-resize {cursor: ew-resize;}
+.grab {cursor: -webkit-grab; cursor: grab;}
+.grabbing {cursor: -webkit-grabbing; cursor: grabbing;}
+.help {cursor: help;}
+.move {cursor: move;}
+.n-resize {cursor: n-resize;}
+.ne-resize {cursor: ne-resize;}
+.nesw-resize {cursor: nesw-resize;}
+.ns-resize {cursor: ns-resize;}
+.nw-resize {cursor: nw-resize;}
+.nwse-resize {cursor: nwse-resize;}
+.no-drop {cursor: no-drop;}
+.none {cursor: none;}
+.not-allowed {cursor: not-allowed;}
+.pointer {cursor: pointer;}
+.progress {cursor: progress;}
+.row-resize {cursor: row-resize;}
+.s-resize {cursor: s-resize;}
+.se-resize {cursor: se-resize;}
+.sw-resize {cursor: sw-resize;}
+.text {cursor: text;}
+.url {cursor: url(myBall.cur),auto;}
+.w-resize {cursor: w-resize;}
+.wait {cursor: wait;}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;} */
+
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+
+img{
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+

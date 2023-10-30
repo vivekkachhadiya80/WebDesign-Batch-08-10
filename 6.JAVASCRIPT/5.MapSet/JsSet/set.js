@@ -55,11 +55,11 @@ size	Returns the number of elements in a Set
 }
 
 {
-  // const x = new Set(["a" , "b" , "c"]);
+  const x = new Set(["a" , "b" , "c" , "d"]);
   
-  // let y = x.has("d");
+  let y = x.has("d");
 
-  // console.log(y);
+  console.log(y);
 }
 
 {

@@ -3,12 +3,13 @@
 // In JavaScript, a Regular Expression (RegEx) is an object that describes a sequence of characters used for defining a search pattern. 
 
 {
-    /^a...s$/
+    // /^a...s$/
 }
 
 // The above code defines a RegEx pattern. The pattern is: any five letter string starting with a and ending with s.
 
 // A pattern defined using RegEx can be used to match against a string.
+
 
 // Image Here
 
@@ -20,7 +21,7 @@
 // The regular expression consists of a pattern enclosed between slashes /.
 
 {
-    const regularExp = /abc/;
+    // const regularExp = /abc/;
     // Here, /abc/ is a regular expression.
 }
 
@@ -28,12 +29,12 @@
 // You can also create a regular expression by calling the RegExp() constructor function.
 
 {
-    const reguarExp = new RegExp('abc');
+    // const reguarExp = new RegExp('abc');
 }
 
 {
-    const regex = new RegExp(/^a...s$/);
-    console.log(regex.test('alias')); // true
+    // const regex = new RegExp(/^a....s$/);
+    // console.log(regex.test('aliaas')); 
 }
 
 // In the above example, the string alias matches with the RegEx pattern /^a...s$/. Here, the test() method is used to check if the string matches the pattern.
@@ -56,8 +57,8 @@
 // you can either use RegExp() or regular expression literal to create a RegEx in JavaScript.
 
 {
-    // const regex1 = /^ab/;
-    // const regex2 = new Regexp('/^ab/'); 
+    const regex1 = /^ab/;
+    const regex2 = new RegExp('/^ab/'); 
 }
 
 // In JavaScript, you can use regular expressions with RegExp() methods: test() and exec().
@@ -67,26 +68,27 @@
 // Regular Expressions
 
 {
-    // const string = 'Find me';
-    // const pattern = /me/;
+    const string = 'Find me';
+    const pattern = /Find/;
 
-    // // search if the pattern is in string variable
-    // const result1 = string.search(pattern);
-    // console.log(result1); // 5
+    // search if the pattern is in string variable
+    const result1 = string.search(pattern);
+    console.log(result1); // 5
 
-    // // replace the character with another character
-    // const string1 = 'Find me';
-    // string1.replace(pattern, 'found you'); // Find found you
+    // replace the character with another character
+    const string1 = 'Find me';
+    // Find found you
+    console.log(string1.replace(pattern, 'found you'));
 
-    // // splitting strings into array elements
-    // const regex1 = /[\s,]+/;
-    // const result2 = 'Hello world! '.split(regex1);
-    // console.log(result2); // ['Hello', 'world!', '']
+    // splitting strings into array elements
+    const regex1 = /[\s,]+/;
+    const result2 = 'Hello world! '.split(regex1);
+    console.log(result2); // ['Hello', 'world!', '']
 
-    // // searching the phone number pattern
-    // const regex2 = /(\d{3})\D(\d{3})-(\d{4})/g;
-    // const result3 = regex2.exec('My phone number is: 555 123-4567.');
-    // console.log(result3); // ["555 123-4567", "555", "123", "4567"]
+    // searching the phone number pattern
+    const regex2 = /(\d{3})(\d{3})(\d{4})/g;
+    const result3 = regex2.exec('My phone number is: 5551234567.');
+    console.log(result3); // ["555 123-4567", "555", "123", "4567"]
 }
 
 // Regular Expression Flags
@@ -96,7 +98,7 @@
 // Regular Expression Modifier  
 
 {
-    // const string = 'Hello hello hello';
+    // const string = 'Hello hello hello Hello hello';
 
     // // performing a replacement
     // const result1 = string.replace(/hello/, 'world');
@@ -123,7 +125,7 @@
     // function validatePhone(num) {
 
     //     // regex pattern for phone number
-    //     const re = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/g;
+    //     const re = /^\(?([0-9]{2})\)?[-. ]?([0-9]{2})?[-. ]?([0-9]{2})?[-. ]?([0-9]{2})?[-. ]?([0-9]{2})$/g;
 
     //     // check if the phone number is valid
     //     let result = num.match(re);
@@ -131,21 +133,23 @@
     //         console.log('The number is valid.');
     //     }
     //     else {
-    //         let num = prompt('Enter number in XXX-XXX-XXXX format:');
+    //         let num = prompt('Enter number in XX-XX-XX-XX-XX format:');
     //         validatePhone(num);
     //     }
     // }
 
     // // take input
-    // let number = prompt('Enter a number XXX-XXX-XXXX');
+    // let number = prompt('Enter a number XX-XX-XX-XX-XX');
 
-    // validatePhone(number);
+    // validatePhone(number);  
+
+    // console.log(validatePhone(number));
 }
 
 // Validating the Email Address
 
 {
-    // // program to validate the email address
+    // program to validate the email address
 
     // function validateEmail(email) {
 

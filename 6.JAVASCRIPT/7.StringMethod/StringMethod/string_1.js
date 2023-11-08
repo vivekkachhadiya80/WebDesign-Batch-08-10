@@ -88,64 +88,64 @@
     // console.log(part);
 }
 
-/****** String replace() ******/
+/****** String Replace() Method ******/
 
-// {
-//     function myFunction() {
-//         let text = document.getElementById("para-1").innerHTML;
-//         document.getElementById("para-1").innerHTML =
-//         text.replace("visit","SkillQode");
-//       }
-// }
+{
+    // function myFunction() {
+    //     let text = document.getElementById("para-1").innerHTML;
+    //     document.getElementById("para-1").innerHTML =
+    //     text.replace("visit","SkillQode");
+    //   }
+}
 
-// {
-//     let text = "please visit visit";
-//     // document.write(text + "<br>");
-//     let change = text.replace("visit" , "skillqode");
-//     document.write(change + "<br>");
-// }
+{
+    // let text = "please visit visit";
+    // // document.write(text + "<br>");
+    // let change = text.replace("visit" , "skillqode");
+    // document.write(change + "<br>");
+}
 
-// {
-//     let text = "please visit MicrasolllP Micrasolllp";
-//     document.write(text + "<br>");
-//     let change = text.replace (/MICRASOLLLP/i, "skillqode");
-//     document.write(change + "<br>");
-// }
+{
+    // let text = "please visit MicrasolllP Micrasolllp";
+    // document.write(text + "<br>");
+    // let change = text.replace (/MICRASOLLLP/i, "skillqode");
+    // document.write(change + "<br>");
+}
 
-// {
-//     let text ="please visit skillqode visit and visit again";
-//     document.write(text + "<br>");
-//     let change= text.replace(/visit/g , "most");
-//     document.write(change);
-// }
+{
+    // let text ="please visit skillqode visit and visit again";
+    // document.write(text + "<br>");
+    // let change= text.replace(/visit/g , "most");
+    // document.write(change);
+}
 
 
-/****** String replaceAll() ******/
+/****** String ReplaceAll() Method ******/
 
-// {
-//     let text ="I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
-//     document.write(text + "<br>");
-//     var change = text.replaceAll("cats" , "dogs");
-//     var changee = text.replaceAll("Cats" , "Dogs");
-//     document.write(change + "<br>");
-//     document.write(changee);
-// }
+{
+    // let text ="I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
+    // document.write(text + "<br>");
+    // var change = text.replaceAll("cats" , "dogs");
+    // var changee = text.replaceAll("Cats" , "Dogs");
+    // document.write(change + "<br>");
+    // document.write(changee);
+}
 
 /****** String toUpperCase() ******/
 
-// {
-//     let text = "I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
-//     let text1= text.toUpperCase();
-//     console.log(text1);
-// }
+{
+    // let text = "I love cats. but Cats are very easy to love. Cats are very popular. but Cats Dangerous";
+    // let text1= text.toUpperCase();
+    // console.log(text1);
+}
 
 /******  String toLowerCase() ******/
 
-// {
-//     let text = "I LOVE CATS. BUT CATS ARE VERY EASY TO LOVE. CATS ARE VERY POPULAR. BUT CATS DANGEROUS";
-//     let text1= text.toLowerCase();
-//     console.log(text1);
-// }
+{
+    // let text = "I LOVE CATS. BUT CATS ARE VERY EASY TO LOVE. CATS ARE VERY POPULAR. BUT CATS DANGEROUS";
+    // let text1= text.toLowerCase();
+    // console.log(text1);
+}
 
 /******  String concat() ******/
 
@@ -159,82 +159,87 @@
 
 /******  String trim() ******/
 
-// {
-//     let demotext="         this is javascript.      ";
-//                            01234567890123456789
-//     // let text = demotext.length;
-//     let demo = demotext.trim();
-//     let text = demo.length;
-//     document.write(text);
-// }
+{
+    // let demotext="         this is javascript.      ";
+    //                        1234567890123456789
+    //               1234567890123456789012345678901234
+    // // let text = demotext.length;
+    // let demo = demotext.trim();
+    // let text = demo.length;
+    // document.write(text);
+}
 
 /******  String trimStart() ******/
 
-// {
-//     let demotext="         this is javascript.       ";
-//     // let text = demotext.length;
-//     let demo=demotext.trimStart();
-//     let text = demo.length;
-//     console.log(text);
-// }
+{
+    // let demotext="         this is javascript.       ";
+    //                        12345678901234567890123456
+    // // let text = demotext.length;
+    // let demo=demotext.trimStart();
+    // let text = demo.length;
+    // console.log(text);
+}
 
 /******  String trimEnd() ******/
 
-// {
-//     let demotext ="         this is javascript.    "
-//     var text = demotext.length;
-//     let demo = demotext.trimEnd();
-//     var text = demo.length;
-//     console.log(text);
-// }
+{
+    // let demotext ="         this is javascript.    ";
+    //                1234567890123456789012345678
+    // var text = demotext.length;
+    // let demo = demotext.trimEnd();
+    // var text = demo.length;
+    // console.log(text);
+}
 
 /******  String padStart() ******/
 
-// {
-//     let demotext = "5";
-//     let demo = demotext.padStart(8 , "00000000000");
-//     console.log(demo);
-// }
+{
+    // let demotext = "5";
+    // let demo = demotext.padStart(8 , "0");
+    // console.log(demo);
+}
 
 /******  String padEnd() ******/
 
-// {
-//     let demotext="5";
-//     let demo=demotext.padEnd(5 , "0");
-//     console.log(demo);
-// }
+{
+    // let demotext="555";
+    // let demo=demotext.padEnd(8 , "0");
+    // console.log(demo);
+}
 
 
 
 /******  String charCodeAt() ******/
 
-// {
-//     let demotext="this is string values";
-//              //   012345678901234567890
-//     let demo = demotext.charCodeAt(17);
-//     console.log(demo);
-// }
+{
+    // let demotext="this is string values";
+    //          //   012345678901234567890
+    // let demo = demotext.charCodeAt(17);
+    // console.log(demo);
+}
 
 /****** String split() ******/
 
-    // {
-    //     let text = "HelloHello";
-    //     const myArr = text.split("");
+    {
+        // let text = "HelloHello";
+        // const myArr = text.split("");
+        // console.log(myArr);
+        // console.log(myArr.length);
         
-    //     text = "";
-    //     for (let i = 0; i < myArr.length; i++) {
-    //       text = text + myArr[i] + "<br>"
-    //     }
-    //     document.write(text);
-    // }
+        // text = "";
+        // for (let i = 0; i < myArr.length; i++) {
+        //   text = text + myArr[i] + "<br>"
+        // }
+        // document.write(text);
+    }
 
 /******  String includes() , true and false ******/
 
-    // {
-    //     let demotext="this is string values";
-    //     let demo = demotext.includes("w");
-    //     console.log(demo);
-    // }
+    {
+        // let demotext="this is string values";
+        // let demo = demotext.includes("v");
+        // console.log(demo);
+    }
 
 
 /* JAVASCRIPT STRING METHOD */
@@ -250,55 +255,48 @@
 
 /******   String indexOf() ******/
 
-// {
-//     let s="This code undefiend code code !";
-//     let part = fruits.indexOf();
-//     console.log(part);
-// }
+{
+    // let s ="This code undefiend code code !";
+    // let part = s.indexOf("code");
+    // console.log(part);
+}
 
-// {
-//     let s="This code undefiend code code !";
-//     let part = s.indexOf("o" , 1);
-//     console.log(part);
-// }
+{
+    // let s="This code undefiend code code !";
+    // let part = s.indexOf("o" , 22);
+    // console.log(part);
+}
 
 /******   String lastIndexOf() ******/
 
-// {
-//     let s="This code undefiend code code !";
-//     let part = s.lastIndexOf("o" , 50);
-//     console.log(part);
-// }
-
-// {
-//     let s="This code undefiend code code !";
-//     let part = fruits.lastIndexOf("o" , 20);
-//     console.log(part);
-// }
-
+{
+    // let s="This code undefiend code code !";
+    // let part = s.lastIndexOf("o" , 30);
+    // console.log(part);
+}
 
 /******  String search() ******/
 
 
-// {
-//     let fruits="This code undefiend code code !";
-//     let part = fruits.search("undefiend");
-//     console.log(part);
-// }
+{
+    // let fruits="This code undefiend code code !";
+    // let part = fruits.search("code");
+    // console.log(part);
+}
 
-// {
-//     let fruits="javascript is 'most' populer langauage";
-//     let part = fruits.search(/Most/i);
-//     console.log(part);
-// }
+{
+    // let fruits="javascript is 'most' populer most langauage";
+    // let part = fruits.search(/Most/i);
+    // console.log(part);
+}
 
-/******  String match() ******/
+/******  String match() Return Array ******/
 
-// {
-//     let text = "this is javascript match method";
-//     let part  = text.match(/t/g);
-//     console.log(part);
-// }
+{
+    // let text = "this is javascript match method";
+    // let part  = text.match(/t/g);
+    // console.log(part);
+}
 
 /******  String matchall()/ remider with array ******/
 
@@ -309,56 +307,71 @@
     // console.log(array);
 }
 
-// {
-//     let text = "this is javascript match is method";
-//     let part = text.matchAll(/is/g);
-//     console.log(part);
-// }
+{
+    // let text = "this is javascript match is method";
+    // let part = text.matchAll(/is/g);
+    // console.log(part);
+}
 
 /******  String startsWith() ******/
 
-// {
-//     let text = "Hello world, welcome to the universe.";
-//     let part = text.startsWith("Hello");
-//     console.log(part);
-// }
+{
+    // let text = "Hello world, welcome to the universe.";
+    // let part = text.startsWith("Hello");
+    // console.log(part);
+}
 
-// {
-//     let text = "Hello world, welcome to the universe.";
-//     let part = text.startsWith("Hello" , 0);
-//     console.log(part);
-// }
+{
+    // let text = "Hello world, welcome to the universe.";
+    // let part = text.startsWith("world" , 6);
+    // console.log(part);
+}
 
 /******  String endWith() ******/
 
-// {
-//     let text = "Hello world, welcome to the universe.";
-//     let part = text.endsWith(".");
-//     console.log(part);
-// }
+{
+    // let text = "Hello world, welcome to the universe.";
+    // let part = text.endsWith("e");
+    // console.log(part);
+}
 
-// {
-//     let text = "Hello world, welcome to the universe.";
-//     let part = text.endsWith("universe" , 50);
-//     console.log(part);
-// }
+{
+    // let text = "Hello world, welcome to the universe.";
+    //             0123456789012345678901234567890123456
+
+    // let part = text.endsWith("universe." , 37);
+    // console.log(part);
+}
 
 
 /******   JavaScript Template Literals ******/
 
 /******  back-Tic syntex ******/
 
-// {
-//     let text = `hello world!`;
-//     console.log(text);
-// }
+{
+    // let text = `hello
+    //  world!`;
+    // console.log(text);
+
+    // let text2 = "hello world"
+    // console.log(text2);
+
+    // let text3 = 'hello world'
+    // console.log(text3);
+}
 
 /******  quotes inside string ******/
 
-// {
-//     let text = `He's name 'joe'`;
-//     console.log(text);
-// }
+{
+    // let text = `He's name "joe"`;
+    // console.log(text);
+
+    // let text2 = "He's name 'joe'";
+    // console.log(text2);
+
+    // let text3 = 'He"s name "joe"';
+    // console.log(text3);
+}
 
 /******  allow multiline string ******/
 

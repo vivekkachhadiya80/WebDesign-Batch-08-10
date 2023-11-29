@@ -59,12 +59,12 @@ new Date(milliseconds)
 // }
 
 // {
-//   const dates = new Date(2023 ,  3 , 16 , 6 , 15 , 20 , 2)
+//   const dates = new Date(2023 ,  11 , 16 , 6 , 15 , 20 , 2)
 //   console.log(dates);
 // }
 
 // {
-//   const dates = new Date(2000)
+//   const dates = new Date(2000000000)
 //   console.log(dates);
 // }
 
@@ -73,6 +73,7 @@ new Date(milliseconds)
 
 // {
 //   const dates = new Date(2023 ,  3 , 16 , 6 , 15 , 20)
+//   console.log(dates);
 //   console.log(dates.toString());
 //   console.log(dates.toDateString());
 //   console.log(dates.toUTCString());
@@ -110,7 +111,7 @@ new Date(milliseconds)
 /*  Date Input - Parsing Dates */
 
 // {
-//   let msec = Date.parse("March 21, 2012");
+//   let msec = Date.parse("November 29, 2023");
 //   console.log(msec);
 // }
 
@@ -216,7 +217,7 @@ setTime()	Set the time (milliseconds since January 1, 1970)
 
 // {
 //   const dates = new Date();
-//   dates.setTime();
+//   dates.setTime(2000000000000);
 //   console.log(dates);
 // }
   

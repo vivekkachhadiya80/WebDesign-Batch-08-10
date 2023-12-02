@@ -8,7 +8,7 @@
     // let a = this;
     // console.log(a);
     // this.name = 'Sarah';
-    // console.log(window.name); // Sarah
+    // console.log(this.name); // Sarah
     // // Run Code
     // // Here, this.name is the same as window.name.
 }
@@ -105,26 +105,29 @@
 // Inside the arrow function, this refers to the parent scope. For example,
 
 {
-    // const greet = () => {
+    // const greet = () => console.log(this);
+    // greet(); // Window {...}
+
+    // function greets(){
     //     console.log(this);
     // }
-    // greet(); // Window {...}
+    // greets();
 }
 
 // Arrow functions do not have their own this. When you use this inside an arrow function, this refers to its parent scope object. For example,
 
 {
-    const greet = {
-        name: 'Jack',
+    // const greet = {
+    //     name: 'Jack',
     
-        // method
-        sayHi () {
-            let hi = () => console.log(this.name);
-            hi();
-        }
-    }
+    //     // method
+    //     sayHi () {
+    //         let hi = () => console.log(this.name);
+    //         hi();
+    //     }
+    // }
     
-    greet.sayHi();
+    // greet.sayHi();
 }
 // Here, this.name inside the hi() function refers to the greet object.
 
@@ -165,29 +168,35 @@
 // When this is used in a function with strict mode, this is undefined. For example,
 
 {
-    'use strict';
-    this.name = 'Jack';
-    function greet() {
+    // 'use strict'
+    // // this.name = 'Jack';
+    // function greet() {
     
-        // this refers to undefined
-        console.log(this);
+    //     // this refers to undefined
+    //     alert(this);
+    // }
+    // greet(); // undefined
+
+    "use strict";
+    function myFunction() {
+    alert(this);
     }
-    greet(); // undefined
+    console.log(myFunction());
 }
 
 // Note: When using this inside a function with strict mode, you can use JavaScript Function call().
 
 // For example,
 
-{
-    'use strict';
-    this.name = 'Jack';
+// {
+//     'use strict';
+//     this.name = 'Jack';
     
-    function greet() {
-        console.log(this.name);
-    }
+//     function greet() {
+//         console.log(this.name);
+//     }
     
-    greet.call(this);
-}
+//     greet.call(this);
+// }
 
 // When you pass this with the call() function, greet() is treated as the method of the this object (global object in this case).

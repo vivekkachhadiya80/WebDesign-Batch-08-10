@@ -15,6 +15,9 @@
     // }
     
     // // Calling greet() function by passing two arguments
+
+    // // calling greet() function by passing two arguments
+
     // let result = greet.apply(personName, ["Good morning", "How are you?"]);
     
     // console.log(result);
@@ -54,8 +57,12 @@
     // // object definition
     // const car = {
     //     name: "BMW",
-    //     description() {
+    //     description() 
+    
     //     return `The ${this.name} of ${this.color} color.`;
+
+    //     return `The ${this.name} is of ${this.color} color.`;
+
     //     },
     // };
     
@@ -86,15 +93,15 @@
 // 4 : Using apply() with built-in functions
 
 {
-    const numbers = [5, 1, 4, 3, 4, 6, 8];
+    // const numbers = [5, 1, 4, 3, 4, 6, 8];
 
-    // using apply() with Math object 
-    let max = Math.max.apply(null, numbers);
+    // // using apply() with Math object 
+    // let max = Math.max.apply(null, numbers);
 
-    console.log(max); 
+    // console.log(max); 
 
-    // without using apply() with Math object 
-    let max1 = Math.max(5, 1, 4, 3, 4, 6, 8);
+    // // without using apply() with Math object 
+    // let max1 = Math.max(5, 1, 4, 3, 4, 6, 8);
 
-    console.log(max1); 
+    // console.log(max1); 
 }

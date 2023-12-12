@@ -23,6 +23,11 @@
     // const arr2 = [...arr1, 'three', 'four', 'five'];
 
     // console.log(arr2); 
+    // const arr2 = [ 'three', 'four', 'five' ,...arr1 ];
+
+    // console.log(arr2); 
+    // console.log(arr1); 
+
 }
 
 // Clone Array Using Spread Operator
@@ -40,6 +45,7 @@
     // console.log(arr1);
     // console.log(arr2);
 
+
     // {
     //     let arr1 = [ 1, 2, 3];
 
@@ -55,6 +61,21 @@
     //     console.log(arr1);
     //     console.log(arr2);
     // }
+    {
+        // let arr1 = [ 1, 2, 3];
+
+        // // copy using spread syntax
+        // let arr2 = [...arr1];
+
+        // console.log(arr1);
+        // console.log(arr2);
+
+        // // append an item to the array
+        // arr1.push(4);
+
+        // console.log(arr1);
+        // console.log(arr2);
+    }
 }
 
 // Spread Operator with Object
@@ -85,6 +106,14 @@
     // func(3);
     // func(4, 5, 6);
 }
+// {
+//     let func = function(a , b , c) {
+//         console.log(a , b , c);
+//     }
+    
+//     func(3);
+//     func(4, 5, 6);
+// }
 
 
 // Here,
@@ -100,6 +129,8 @@
 {
     // function sum(x, y ,z) {
     //     console.log(x + y + z);
+    // function sum(x, y ,z , a) {
+    //     console.log(x + y + z + a);
     // }
     
     // const num1 = [1, 3, 4, 5];

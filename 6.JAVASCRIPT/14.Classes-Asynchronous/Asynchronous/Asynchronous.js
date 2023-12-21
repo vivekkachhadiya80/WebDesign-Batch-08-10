@@ -194,19 +194,19 @@
 
 // Program with a Promise
 
-{
-    // const count = false;
+// {
+//     const count = false;
 
-    // let countValue = new Promise(function (resolve, reject) {
-    //     if (count) {
-    //         resolve("There is a count value.");
-    //     } else {
-    //         reject("There is no count value");
-    //     }
-    // });
+//     let countValue = new Promise(function (resolve, reject) {
+//         if (count) {
+//             resolve("There is a count value.");
+//         } else {
+//             reject("There is no count value");
+//         }
+//     });
 
-    // console.log(countValue);
-}
+//     console.log(countValue);
+// }
 
 // JavaScript Promise Chaining
 

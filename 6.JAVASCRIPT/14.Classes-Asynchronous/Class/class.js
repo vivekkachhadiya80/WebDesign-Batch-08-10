@@ -17,6 +17,8 @@
 
     // // create an object
     // const person1 = new Person();
+
+    // console.log(person1);
 }
 
 {
@@ -42,27 +44,27 @@
     // const person1 = new Person('John');
     // const person2 = new Person('Jack');
     
-    // console.log(person1.name);
+    // console.log(person1);
     // console.log(person2.name); 
 
     // // person1 and person2 are objects of Person class.
     // // The constructor() method inside a class gets called automatically each time an object is created.
 }
-
-// Javascript Class Methods
-
-// While using constructor function
-
 {
-    // // constructor function
-    // function Person (name) {
-
-    //     // assigning  parameter values to the calling object
-    //     this.name = name;
+    // Javascript Class Methods
     
-    //     // defining method
-    //     this.greet = function () {
-    //         return ('Hello' + ' ' + this.name);
+    // While using constructor function
+    
+    //     // constructor function
+    //     function Person (name) {
+    
+    //         // assigning  parameter values to the calling object
+    //         this.name = name;
+        
+    //         // defining method
+    //         this.greet = function () {
+    //             return ('Hello' + ' ' + this.name);
+    //         }
     //     }
     // }
 }

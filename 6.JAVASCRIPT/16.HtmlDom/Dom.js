@@ -66,7 +66,11 @@
 //  getElementsByClassName()
 
 {
+<<<<<<< HEAD
     // const elements = document.getElementsByClassName("blue");
+=======
+    // const elements = document.getElementsByClassName("demo");
+>>>>>>> e86db52c81ad197f52ab2507374ed00e2fe2fa95
     // console.log(elements);
     
     // function changeColor() {
@@ -78,6 +82,7 @@
 
 // querySelector()
 
+<<<<<<< HEAD
 // {
 //     const element = document.querySelectorAll(".demo");
 //     console.log(element);
@@ -86,6 +91,19 @@
 //       element.style.color = "red";
 //     }
 // }
+=======
+{
+    // const element = document.querySelector(".demo");
+    // console.log(element);
+
+    // function changeColors() {
+    //   element.style.color = "red";
+    // }
+    // function changeColors() {
+    //     element.style.color = "green";
+    //   }
+}
+>>>>>>> e86db52c81ad197f52ab2507374ed00e2fe2fa95
 
 // querySelectorAll
 
@@ -186,5 +204,9 @@ document.title
 }
 
 {
+<<<<<<< HEAD
     // document.getElementById("title").innerHTML = "The title of this document is: " + document.title;
+=======
+    document.getElementById("title").innerHTML = "The title of this document is: " + document.title;
+>>>>>>> e86db52c81ad197f52ab2507374ed00e2fe2fa95
 }

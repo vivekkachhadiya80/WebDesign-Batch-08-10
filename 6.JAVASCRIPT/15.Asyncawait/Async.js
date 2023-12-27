@@ -1,5 +1,9 @@
 // Javscript async/await
 
+// const { log } = require("async");
+
+// const { log } = require("async");
+
 // We use the async keyword with a function to represent that the function is an asynchronous function. The async function returns a promise.
 
 {
@@ -137,14 +141,14 @@
 //             console.log(result);
 //         }   
 //         catch(error) {
-//             console.log(error);
+//             console.log("This is Error Page");
 //         }
 //     }
 
-//     // calling the async function
-//     asyncFunc(); // Promise resolved 
+    // calling the async function
+    // asyncFunc(); // Promise resolved 
 
-//     // we have used try/catch block to handle the errors. If the program runs successfully, it will go to the try block. And if the program throws an error, it will go to the catch block.
+    // we have used try/catch block to handle the errors. If the program runs successfully, it will go to the try block. And if the program throws an error, it will go to the catch block.
 }
 
 // Benefits of Using async Function
@@ -212,6 +216,8 @@
     // }
 
     // let display = setInterval(showTime, 5000);
+
+    // console.log(display);
 }
 
 // The above program displays the current time once every 5 seconds.
@@ -252,6 +258,8 @@
 
     // }, 2000);
 
+    // console.log(interval);
+
     // // the setInterval() method is used to display the current time every 2 seconds. The clearInterval() method stops the function call after 5 times.
 }
 
@@ -270,7 +278,9 @@
     // }
 
     // // passing argument to setInterval
-    // setInterval(greet, 1000, 'John', 'Doe');
+    // setInterval(greet, 1000, 'John', 'D
+    
+    `oe');
 
     // // two parameters John and Doe are passed to the setInterval() method. These two parameters are the arguments that will be passed to the function (here,  greet() function) that is defined inside the setInterval() method.
 }

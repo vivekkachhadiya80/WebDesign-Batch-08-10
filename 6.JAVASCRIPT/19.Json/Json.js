@@ -8,7 +8,6 @@
     //     "name": "John",
     //     "age": 22,
     //     "gender": "male",
-
     // }
 }
 
@@ -21,7 +20,7 @@
 
 // JSON Data
 
-// SON data consists of key/value pairs similar to JavaScript object properties. The key and values are written in double quotes separated by a colon :. For example,
+// JSON data consists of key/value pairs similar to JavaScript object properties. The key and values are written in double quotes separated by a colon :. For example,
 
 {
     // JSON data
@@ -79,7 +78,7 @@
     // console.log(data.hobby); // { gaming: false, reading: true, sport: "football"}
 
     // console.log(data.hobby.sport); // football
-    // console.log(data.class[1]); // HTML
+    // console.log(data.class[0]); // HTML
 }
 
 // We use the . notation to access JSON data. Its syntax is: variableName.key
@@ -94,14 +93,14 @@
     // }
 
     // // accessing JSON object
-    // console.log(data["name"]); // John
+    // console.log(data["age"]); // John
 }
 
 // JavaScript Objects VS JSON
 
 // Though the syntax of JSON is similar to the JavaScript object, JSON is different from JavaScript objects.
 
-// image here...........
+
 
 // Converting JSON to JavaScript Object
 
@@ -139,3 +138,12 @@
 // JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa. JSON data are very easy to parse and use. It is fast to access and manipulate JSON data as they only contain texts.
 
 // JSON is language independent. You can create and use JSON in other programming languages too.
+
+fetch('http://localhost:3000/post')
+      .then(response => response.json())
+      .then(json => document.getElementById("demo").innerHTML  = (json.post[1]))
+
+
+    //   https://github.com/typicode/json-server
+
+    // https://jsonplaceholder.typicode.com/

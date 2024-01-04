@@ -139,9 +139,9 @@
 
 // JSON is language independent. You can create and use JSON in other programming languages too.
 
-fetch('http://localhost:3000/post')
-      .then(response => response.json())
-      .then(json => document.getElementById("demo").innerHTML  = (json.post[1]))
+// fetch('http://localhost:3000/post')
+//       .then(response => response.json())
+//       .then(json => document.getElementById("demo").innerHTML  = (json.post[1]))
 
 
     //   https://github.com/typicode/json-server
